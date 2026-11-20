@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RONY'S PERFUMES</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fff;color:#222}
+header{padding:25px;text-align:center;border-bottom:1px solid #eee}
+header h1{letter-spacing:5px;font-size:25px}
+nav{padding:15px;text-align:center}
+nav a{margin:12px;color:#333;text-decoration:none}
+.hero{padding:85px 20px;text-align:center;background:#f7f5f1}
+.hero h2{font-size:38px;letter-spacing:2px}
+.hero p{color:#777}
+button{background:#222;color:white;border:0;padding:14px 25px;cursor:pointer}
+.products{padding:45px 20px;text-align:center}
+.grid{display:flex;justify-content:center;gap:25px;flex-wrap:wrap}
+.item{width:250px;margin:10px}
+.item img{width:100%;height:270px;object-fit:cover}
+.item h3{letter-spacing:2px}
+footer{text-align:center;padding:30px;background:#f7f5f1}
+</style>
+</head>
+<body>
+<header>
+<h1>RONY'S PERFUMES</h1>
+<p>YOUR SIGNATURE SCENT</p>
+</header>
+<nav>
+<a href="#">HOME</a>
+<a href="#products">COLLECTION</a>
+<a href="#contact">CONTACT</a>
+</nav>
+<section class="hero">
+<h2>DISCOVER YOUR SCENT</h2>
+<p>Unique fragrances. Unforgettable impressions.</p>
+<a href="#products"><button>EXPLORE COLLECTION</button></a>
+</section>
+<section class="products" id="products">
+<h2>OUR COLLECTION</h2>
+<div class="grid">
+<div class="item">
+<img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=600" alt="Perfume">
+<h3>ROYAL</h3>
+<p>Elegant masculine fragrance</p>
+<p>$15</p>
+</div>
+<div class="item">
+<img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=600" alt="Perfume">
+<h3>ESSENCE</h3>
+<p>Fresh and beautiful fragrance</p>
+<p>$15</p>
+</div>
+</div>
+</section>
+<footer id="contact">
+<h3>RONY'S PERFUMES</h3>
+<p>Made to be remembered.</p>
+<a href="https://wa.me/961XXXXXXXXX">
+<button>ORDER ON WHATSAPP</button>
+</a>
+</footer>
+</body>
+</html>
